@@ -8,6 +8,10 @@
     "build": "tsc",
     "start": "ts-node-dev --respawn src/index.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saiashish90/simple-reddit"
+  },
   "keywords": [
     "reddit",
     "api",
@@ -16,6 +20,7 @@
   ],
   "author": "Sai Ashish",
   "license": "ISC",
+  "homepage": "https://github.com/monatheoctocat/my_package",
   "devDependencies": {
     "ts-node-dev": "^1.1.1",
     "typescript": "^4.1.3"
