@@ -1,5 +1,5 @@
 {
-  "name": "reddit-api",
+  "name": "reddit-api-client",
   "version": "1.0.0",
   "description": "A simple reddit api that doesnt require auth.",
   "main": "lib/index.js",
