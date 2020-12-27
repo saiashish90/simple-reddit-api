@@ -6,4 +6,3 @@ interface Options {
 }
 export declare function topPost({ subreddit, count, is_meme, fulldata }?: Options): Promise<any>;
 export {};
-//# sourceMappingURL=index.d.ts.map
