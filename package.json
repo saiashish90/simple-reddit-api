@@ -1,9 +1,8 @@
 {
   "name": "simple-reddit",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "A simple reddit api that doesnt require auth.",
   "main": "lib/index.js",
-  "types":"/index.d.ts",
   "scripts": {
     "build": "tsc",
     "start": "ts-node-dev --respawn src/index.ts"
@@ -12,9 +11,6 @@
     "type": "git",
     "url": "https://github.com/saiashish90/simple-reddit"
   },
-  "files": [
-    "lib"
-  ],
   "keywords": [
     "reddit",
     "reddit api",
