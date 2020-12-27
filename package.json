@@ -3,6 +3,7 @@
   "version": "1.0.6",
   "description": "A simple reddit api that doesnt require auth.",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "start": "ts-node-dev --respawn src/index.ts"
