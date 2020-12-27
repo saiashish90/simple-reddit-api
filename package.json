@@ -1,6 +1,6 @@
 {
-  "name": "simple-reddit",
-  "version": "1.0.7",
+  "name": "simple-reddit-api",
+  "version": "1.0.0",
   "description": "A simple reddit api that doesnt require auth.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -12,9 +12,13 @@
     "type": "git",
     "url": "https://github.com/saiashish90/simple-reddit"
   },
+  "files": [
+    "lib"
+  ],
   "keywords": [
+    "simple api",
     "reddit",
-    "reddit api",
+    "simple reddit api",
     "reddit client",
     "posts",
     "no auth"
