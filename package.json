@@ -1,6 +1,6 @@
 {
   "name": "simple-reddit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple reddit api that doesnt require auth.",
   "main": "lib/index.js",
   "bin": "lib/index.js",
