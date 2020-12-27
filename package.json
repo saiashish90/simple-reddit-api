@@ -1,6 +1,6 @@
 {
   "name": "simple-reddit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple reddit api that doesnt require auth.",
   "main": "lib/index.js",
   "bin": "lib/index.js",
@@ -14,13 +14,14 @@
   },
   "keywords": [
     "reddit",
-    "api",
-    "reddit",
-    "posts"
+    "reddit api",
+    "reddit client",
+    "posts",
+    "no auth"
   ],
   "author": "Sai Ashish",
   "license": "ISC",
-  "homepage": "https://github.com/monatheoctocat/my_package",
+  "homepage": "https://github.com/saiashish90/simple-reddit/blob/master/README.md",
   "devDependencies": {
     "ts-node-dev": "^1.1.1",
     "typescript": "^4.1.3"
