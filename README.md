@@ -20,7 +20,13 @@ const {topPost} = require("simple-reddit");
 ### Basic examples:
 #### Get top post from reddit.
 ```js 
-RedditSimple.TopPost(options).then(res => {
+RedditSimple.topPost(options).then(res => {
+    console.log(res);
+})
+```
+#### Get random post from reddit.
+```js 
+RedditSimple.randomPost(options).then(res => {
     console.log(res);
 })
 ```
