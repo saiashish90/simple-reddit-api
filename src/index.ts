@@ -109,4 +109,3 @@ export async function popularSubreddits(count:number = 1) {
     const subreddits = json.data.children.slice(0,count).map(func).map((i: Subreddit)=>({data:{...i.data,url:`https://www.reddit.com/${i.data.display_name_prefixed}`}}))
     return subreddits;
 }
-topPost({subreddit:"dankmemes"}).then(console.log)
