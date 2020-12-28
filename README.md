@@ -24,12 +24,38 @@ RedditSimple.topPost(options).then(res => {
     console.log(res);
 })
 ```
+&nbsp;
+#### Get new post from reddit.
+```js 
+RedditSimple.newPost(options).then(res => {
+    console.log(res);
+})
+```
+&nbsp;
 #### Get random post from reddit.
 ```js 
 RedditSimple.randomPost(options).then(res => {
     console.log(res);
 })
 ```
+&nbsp;
+#### Search if a subreddit exists.
+
+```js 
+RedditSimple.searchSubreddits('dankmemes').then(res => {
+    console.log(res);
+})
+```
+- Args: Name of subreddit to be searched. (Required)
+
+&nbsp;
+#### Get popular subreddits.
+```js 
+RedditSimple.popularSubreddits(count).then(res => {
+    console.log(res);
+})
+```
+- Args: Number of subreddits to be displayed. (Defaults to 1)
 #
 ## Options
 ### There are 4 options that you can pass.
