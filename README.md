@@ -1,4 +1,4 @@
-# simple-reddit
+# simple-reddit-api
 _Simple client for the reddit public api. (No auth needed)_
 
 ### Get it from npm
