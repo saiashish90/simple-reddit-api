@@ -65,3 +65,48 @@ RedditSimple.popularSubreddits(count).then(res => {
 | count     | Number of posts to retrieve | Retrieves n number of posts.                                     | 1 (max:100) |
 | is_meme   | true/false                  | If you want to get a meme.  Ignores subreddit option if true.    | false       |
 | fulldata  | true/false                  | Retrieve essential post data or  everything reddit has to offer. | false       |
+#
+## Values returned from the method
+### Post details
+```js
+{
+    status:200/404, //404 if any error occurs
+    posts:[ //empty incase of error/no subreddit
+        {
+            data: {
+		        title: string,
+		        author: string,
+		        subreddit_name_prefixed: string,
+		        ups: number,
+		        total_awards_received: number,
+		        url: string,
+	        }
+        } //Incase of fulldata:true, posts array has the raw post object returned by reddit
+    ]
+}
+```
+### Search subreddits
+```js
+{
+	status: 200/404, //404 if any error occurs
+	subreddit: subreddit,
+	url: `${api}${subreddit}`
+}
+``` 
+### List subreddits
+```js
+{
+    status:200/400, //404 if any error occurs
+    subreddits:[  //array empty in case of error
+        {
+            data: {
+		        display_name_prefixed: string,
+		        subscribers: string,
+		        description: string,
+		        url: string
+            }
+        }
+    ]
+}
+```
+#
