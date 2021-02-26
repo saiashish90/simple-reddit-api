@@ -66,7 +66,7 @@ RedditSimple.popularSubreddits(count).then(res => {
 | is_meme   | true/false                  | If you want to get a meme.  Ignores subreddit option if true.    | false       |
 | fulldata  | true/false                  | Retrieve essential post data or  everything reddit has to offer. | false       |
 #
-## Values returned from the method
+## Values returned from the methods
 ### Post details
 ```js
 {
