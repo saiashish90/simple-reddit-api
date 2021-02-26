@@ -20,21 +20,21 @@ const {topPost} = require("simple-reddit");
 ### Basic examples:
 #### Get top post from reddit.
 ```js 
-RedditSimple.topPost(options).then(res => {
+Reddit.topPost(options).then(res => {
     console.log(res);
 })
 ```
 &nbsp;
 #### Get new post from reddit.
 ```js 
-RedditSimple.newPost(options).then(res => {
+Reddit.newPost(options).then(res => {
     console.log(res);
 })
 ```
 &nbsp;
 #### Get random post from reddit.
 ```js 
-RedditSimple.randomPost(options).then(res => {
+Reddit.randomPost(options).then(res => {
     console.log(res);
 })
 ```
@@ -42,7 +42,7 @@ RedditSimple.randomPost(options).then(res => {
 #### Search if a subreddit exists.
 
 ```js 
-RedditSimple.searchSubreddits('dankmemes').then(res => {
+Reddit.searchSubreddits('dankmemes').then(res => {
     console.log(res);
 })
 ```
@@ -51,7 +51,7 @@ RedditSimple.searchSubreddits('dankmemes').then(res => {
 &nbsp;
 #### Get popular subreddits.
 ```js 
-RedditSimple.popularSubreddits(count).then(res => {
+Reddit.popularSubreddits(count).then(res => {
     console.log(res);
 })
 ```
